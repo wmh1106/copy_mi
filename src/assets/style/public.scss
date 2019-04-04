@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+$color_0: #333;
+$color_1: #666;
+$color_2: #999;
+$color_light: #ddd;
+
+$theme: #fa6620;
+
+// 宽度：375px
+@function px( $px) {
+  @return $px*100/375+vw;
+}
